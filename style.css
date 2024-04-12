@@ -70,4 +70,8 @@ a{
     .outerbox{
         width: 80%;
     }
+    .dp{
+        height: 30%;
+        width: 60%;
+    }
 }
