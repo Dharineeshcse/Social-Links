@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+.outerbox{
+    width: 30%;
+    height: 85%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.dp{
+    height: 30%;
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 5%;
+    border: 3px rgb(188, 188, 148) solid;
+}
+.sociallinks{
+    width: 100%;
+    height:100%;
+    /* margin:3%; */
+    border: none;
+    border-radius:10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 800
+}
+.sociallinks:hover{
+    background-color: #FFF455;
+    opacity: 70%;
+    transition: ease-in-out;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+.location{
+    color: rgb(158, 158, 60);
+}
+.para{
+    color: hsl(0, 0%, 100%);
+}
+span{
+    color: rgb(187, 187, 149);
+}
+a{
+    text-decoration: none;
+    width: 80%;
+    height:50%;
+    margin: 3%;
+}
+@media (min-height:540px) and (min-width:250px) and (max-width:600px) {
+    .outerbox{
+        width: 80%;
+    }
+}
